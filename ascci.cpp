@@ -1,10 +1,10 @@
 #include<stdio.h>
 main()
 {
-	char ch;
-	printf("Enter any character: ");
-	scanf("%c",&ch);
-	
-	printf("%d",ch);
+	printf("jaggu lanja");
+	for(i=0;i<2;i++){
+		printf("%d",i);
+	}
+
 }
 	
