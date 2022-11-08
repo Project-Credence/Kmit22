@@ -1,8 +1,0 @@
-[2022-11-05 20:00:27.398465] [0x00005574] (info) : Connect CEF app
-[2022-11-05 20:00:27.399465] [0x00005574] (info) : 2021,11,22,64h
-[2022-11-05 20:00:27.399465] [0x00005574] (info) : Memory 7.348 GB
-[2022-11-05 20:00:27.551499] [0x00005574] (info) : Not enabling crash reporter for processid=2388
-[2022-11-05 20:00:28.182641] [0x00004c44] (info) : CameraManager: Media Foundation camera
-[2022-11-05 20:00:28.182641] [0x00004c44] (info) : CameraManager: Media Foundation camera
-[2022-11-05 20:00:28.288553] [0x00004c44] (info) : Not enabling crash reporter for processid=4472
-[2022-11-05 20:00:29.890245] [0x00005574] (info) : Closing Log File
