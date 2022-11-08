@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=1,rev=nextnumber;
+	printf("Enter a number: ");
+	scanf("%d ",&n);
+	printf("Fibonacci series");
+	a = b;
+	b = c;
+	nextnumber = a+b;
+	return 0;	
+}
