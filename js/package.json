@@ -1,0 +1,21 @@
+{
+  "name": "hari",
+  "version": "1.0.0",
+  "description": "its ok",
+  "main": "ind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kmit22"
+  },
+  "author": "hari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
