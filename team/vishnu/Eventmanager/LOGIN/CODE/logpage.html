@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="logpage.js">
 
     <!-- title -->
     <title>E-VENDOR | Your Best Event-Manager </title>
@@ -35,12 +36,6 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto d-flex align-items-center">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="http://127.0.0.1:3002/team/vishnu/Event manager/HOME/CODE/index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:3002/team/vishnu/Event manager/ABOUT/CODE/about.html">About</a>
-                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:3002/team/vishnu/Event manager/CONTACT/CODE/contact.html">Contact us</a>
-                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5501/team/vishnu/Event%20manager/SERVICES/CODE/services.html">Services</a>
-                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:3002/team/vishnu/Event manager/LOGIN/CODE/logpage.html">Login</a>
-                <li><button class="btn btn-outline-success" type="submit" >Get Started</button></li>
             </ul>
         </div>
     </div>
@@ -155,9 +150,6 @@
             </div>
         </div>
     </div>
-
-
-
     <!-- signupforuser-->
     <div class="modal fade" id="signupforuser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-me modal-dialog-scrollable">
@@ -215,24 +207,26 @@
                 <button type="button" class="btn-close float-right" data-bs-dismiss="modal" aria-label="Close"></button>
             </div> 
             <div class="modal-body">
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
+                <form id="frm1" action="/login" method="post">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    
+                    <div class="mb-3 form-check">
+                        <br>
+                        <input type="checkbox" class="form-check-input" id="showpassword" onclick="showPassword()">
+                        <label class="form-check-label" for="showpassword">Show Password</label>
+                        <a href="#" class="form-check-label float-end" for="showpassword">forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
-                
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                </div>
-                
-                <div class="mb-3 form-check">
-                    <br>
-                    <input type="checkbox" class="form-check-input" id="showpassword">
-                    <label class="form-check-label" for="showpassword">Show Password</label>
-                    <a href="#" class="form-check-label float-end" for="showpassword">forgot password?</a>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
+                </form>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
